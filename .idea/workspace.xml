@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e90ee3b7-9938-400c-ac25-bca119186c92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/wine-merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine_learning_basic/wine-merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/wine_red_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/wine_white_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/winequality-red.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/winequality-white.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +25,7 @@
     <SUITE FILE_PATH="coverage/Python_data_analysis$wine_merge.coverage" NAME="wine-merge Coverage Results" MODIFIED="1557050634102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_learning_basic" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$Pandas_value_matches_pattern.coverage" NAME="Pandas_value_matches_pattern Coverage Results" MODIFIED="1556246070342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$7_pandas_column_by_index.coverage" NAME="7_pandas_column_by_index Coverage Results" MODIFIED="1556416240002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas_excel" />
+    <SUITE FILE_PATH="coverage/Python_data_analysis$wine_quality.coverage" NAME="wine_quality Coverage Results" MODIFIED="1557129412811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_learning_basic" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$pandas_select_contiguous_rows.coverage" NAME="pandas_select_contiguous_rows Coverage Results" MODIFIED="1556250285295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$pandas_add_header_row.coverage" NAME="pandas_add_header_row Coverage Results" MODIFIED="1556257625408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$Pandas_basic.coverage" NAME="Pandas_basic Coverage Results" MODIFIED="1556244989581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -67,15 +73,17 @@
     <session id="1756470407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +103,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="py" value="17334" />
+          <entry key="py" value="18783" />
           <entry key="test2" value="53" />
           <entry key="txt" value="40" />
         </counts>
@@ -103,7 +111,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="123" />
-          <entry key="Python" value="17323" />
+          <entry key="Python" value="18772" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
@@ -111,11 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine_quality.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="201">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -123,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine-merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="576">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -138,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91224">
+            <state relative-caret-position="88992">
               <caret line="3801" column="8" selection-start-line="3801" selection-start-column="8" selection-end-line="3801" selection-end-column="8" />
             </state>
           </provider>
@@ -265,8 +273,8 @@
         <option value="$PROJECT_DIR$/Database_basic/1db_count_rows.py" />
         <option value="$PROJECT_DIR$/Database_basic/2db_insert_row.py" />
         <option value="$PROJECT_DIR$/Database_basic/3db_update_row.py" />
-        <option value="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" />
         <option value="$PROJECT_DIR$/Machine_learning_basic/wine-merge.py" />
+        <option value="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" />
       </list>
     </option>
   </component>
@@ -276,9 +284,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1795" />
     <option name="height" value="891" />
   </component>
@@ -304,7 +312,8 @@
             <path>
               <item name="Python_data_analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_data_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas_csv" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine_learning_basic" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wine-merge">
+  <component name="RunManager" selected="Python.wine_quality">
     <configuration name="1db_count_rows" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_data_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -403,28 +412,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9_value_meets_condition_all_worksheets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_data_analysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas_excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas_excel/9_value_meets_condition_all_worksheets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="wine-merge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_data_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -447,20 +434,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wine_quality" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_data_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine_learning_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.9_value_meets_condition_all_worksheets" />
       <item itemvalue="Python.1db_count_rows" />
       <item itemvalue="Python.2db_insert_row" />
       <item itemvalue="Python.3db_update_row" />
       <item itemvalue="Python.wine-merge" />
+      <item itemvalue="Python.wine_quality" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wine_quality" />
         <item itemvalue="Python.wine-merge" />
         <item itemvalue="Python.3db_update_row" />
         <item itemvalue="Python.2db_insert_row" />
         <item itemvalue="Python.1db_count_rows" />
-        <item itemvalue="Python.9_value_meets_condition_all_worksheets" />
       </list>
     </recent_temporary>
   </component>
@@ -478,15 +487,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="60" width="1795" height="891" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29982567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12070815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5710345" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28846154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,7 +509,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.36051503" />
       <window_info anchor="right" id="Database" order="4" weight="0.329303" />
     </layout>
   </component>
@@ -764,17 +773,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine_quality.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="201">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine-merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91224">
+        <state relative-caret-position="88992">
           <caret line="3801" column="8" selection-start-line="3801" selection-start-column="8" selection-end-line="3801" selection-end-column="8" />
         </state>
       </provider>
@@ -828,16 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine-merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

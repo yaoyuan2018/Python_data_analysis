@@ -52,3 +52,99 @@ plt.show()
 print(wine.groupby(['type'])[['quality']].agg(['std']))
 tstat, pvalue, df = sm.stats.ttest_ind(red_wine, white_wine)
 print('tstat: %.3f pvalue: %.4f' % (tstat, pvalue))
+
+# corr函数可以计算出数据集中所有变量两两之间的线性相关性。
+print(wine.corr())
+
+# 从红葡萄酒和白葡萄酒的数据中取出一个“小”样本来进行绘图，定义take_sample函数抽取在统计图中使用的样本点。
+def take_sample(data_frame, replace=False, n=200):
+    # random.choice函数随机选择一个行的子集
+    return data_frame.loc[np.random.choice(data_frame.index, replace=replace, size=n)]
+# 对红葡萄酒数据进行抽样
+reds_sample = take_sample(wine.loc[wine['type']=='red', :])
+# 对白葡萄酒数据进行抽样
+whites_sample = take_sample(wine.loc[wine['type']=='white', :])
+# 将抽样所得的两个数据框连接在一起
+wine_sample = pd.concat([reds_sample, whites_sample])
+
+# 在wine数据框中创建一个新的列in_sample,并使用numpy的where函数和pandas的isin函数对这个新列进行填充,填充的值根据此行的索引值是否在抽样数据的索引值中分别设为1和0.
+wine['in_sample'] = np.where(wine.index.isin(wine_sample.index),1.,0.)
+
+# 使用pandas的crosstab函数来确认in_sample列中包含400个1和6097个0
+print(pd.crosstab(wine.in_sample, wine.type, margins=True))
+
+# 查看成对变量之间的关系
+sns.set_style("dark")
+g = sns.pairplot(wine_sample, kind='reg', plot_kws={"ci": False,"x_jitter": 0.25, "y_jitter": 0.25}\
+                 , hue='type', diag_kind='hist',diag_kws={"bins": 10, "alpha": 1.0},\
+                 palette=dict(red="red", white = "white"),\
+                 markers=['o', 's'], vars=['quality','alcohol','residual_sugar'])
+print(g)
+plt.suptitle('Histograms and Scatter Plots of Quality, Alcohol, and Residual Sugar', fontsize = 14,\
+             horizontalalignment='center', verticalalignment='top',x=0.5, y=0.999)
+plt.show()
+
+my_formula = 'quality ~ alcohol + chlorides + citric_acid + density \
+             + fixed_acidity + free_sulfur_dioxide + pH + residual_sugar + sulphates\
+             + total_sulfur_dioxide + volatile_acidity'
+
+# 最小二乘法进行线性拟合
+lm = ols(my_formula, data=wine).fit()
+
+## 或者，也可以使用广义线性模型（glm）语法进行线性回归
+## lm = glm(my_formula, data = wine, family = sm.families.Gaussian()).fit()
+
+# 打印结果的摘要信息，包含了模型系数、系数的标准差和置信区间、修正R方、F统计量等模型详细信息。
+print(lm.summary())
+
+# 打印一个列表，其中包含从模型对象lm中提取出的所有数值信息
+print("\nQuantities you can extract from the result:\n %s" % dir(lm))
+
+# lm.params以一个序列的形式返回模型系数，这样你可以通过定位或名称提取出单个的系数。
+print("\nCoefficients:\n%s" % lm.params)
+
+# lm.bse以序列的形式返回模型系数的标准差。
+print("\nCoefficient Std Errors: \n%s" % lm.bse)
+
+# lm.rsquared_adj返回修正R方
+print("\nAdj. R-squared:\n%.2f" % lm.rsquared_adj)
+
+# lm.fvalue和lm.f_pvalue分别返回F统计量和它的p值。
+print("\nF-statistic: %.1f    P-value: %.2f" % (lm.fvalue, lm.f_pvalue))
+
+# lm.fittedvalues返回拟合值
+print("\nNumber of obs: %d    Number of fitted values: %d" % (lm.nobs,\
+                                                              len(lm.fittedvalues)))
+
+# 创建一个名为dependent_variable的序列来保存质量数据
+dependent_variable = wine['quality']
+
+# 创建一个名为independent_variables的数据框
+# 来保存初始的葡萄酒数据集中除quality、type和in_sample之外的所有变量
+independent_variables = wine[wine.columns.difference(['quality','type','in_sample'])]
+
+# 对自变量进行标准化
+# 对每个变量，在每个观测中减去变量的均值
+# 并且使用结果除以变量的标准差
+independent_variables_standardized = (independent_variables - independent_variables.mean()) / independent_variables.std()
+
+# 将因变量quality作为一列添加到自变量数据框中
+# 创建一个带有标准化自变量的
+# 新数据集
+wine_standardized = pd.concat([dependent_variable, independent_variables_standardized], axis=1)
+
+# 完成了带有标准化自变量的数据集后，重新进行线性回归，并查看一下摘要统计
+lm_standardized = ols(my_formula, data=wine_standardized).fit()
+print(lm_standardized.summary())
+
+
+# 使用葡萄酒数据集中的前10个观测创建10个“新”观测
+# 新观测中只包含模型中使用的自变量
+new_observations = wine.ix[wine.index.isin(range(10)), independent_variables.columns]
+
+# 基于新观测中的葡萄酒特性预测质量评分
+y_predicted = lm.predict(new_observations)
+
+# 将预测值保留两位小数并打印到屏幕上
+y_predicted_rounded = [round(score, 2) for score in y_predicted]
+print(y_predicted_rounded)

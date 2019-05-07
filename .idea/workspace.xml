@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e90ee3b7-9938-400c-ac25-bca119186c92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Machine_learning_basic/customer_churn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/test.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/wine_red_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/wine_white_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/winequality-red.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine_learning_basic/winequality-white.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +21,13 @@
     <SUITE FILE_PATH="coverage/Python_data_analysis$wine_merge.coverage" NAME="wine-merge Coverage Results" MODIFIED="1557050634102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_learning_basic" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$Pandas_value_matches_pattern.coverage" NAME="Pandas_value_matches_pattern Coverage Results" MODIFIED="1556246070342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$7_pandas_column_by_index.coverage" NAME="7_pandas_column_by_index Coverage Results" MODIFIED="1556416240002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas_excel" />
-    <SUITE FILE_PATH="coverage/Python_data_analysis$wine_quality.coverage" NAME="wine_quality Coverage Results" MODIFIED="1557129412811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_learning_basic" />
+    <SUITE FILE_PATH="coverage/Python_data_analysis$wine_quality.coverage" NAME="wine_quality Coverage Results" MODIFIED="1557218272695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_learning_basic" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$pandas_select_contiguous_rows.coverage" NAME="pandas_select_contiguous_rows Coverage Results" MODIFIED="1556250285295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$pandas_add_header_row.coverage" NAME="pandas_add_header_row Coverage Results" MODIFIED="1556257625408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$Pandas_basic.coverage" NAME="Pandas_basic Coverage Results" MODIFIED="1556244989581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$String_basic.coverage" NAME="String_basic Coverage Results" MODIFIED="1556002388311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$pandas_value_meets_condition.coverage" NAME="pandas_value_meets_condition Coverage Results" MODIFIED="1556265956835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas_excel" />
+    <SUITE FILE_PATH="coverage/Python_data_analysis$customer_churn.coverage" NAME="customer_churn Coverage Results" MODIFIED="1557221006356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine_learning_basic" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$pandas_sum_average_from_multiple_files.coverage" NAME="pandas_sum_average_from_multiple_files Coverage Results" MODIFIED="1556259707949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$Pandas_collections_basic__1_.coverage" NAME="Pandas_collections_basic (1) Coverage Results" MODIFIED="1556245792864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas" />
     <SUITE FILE_PATH="coverage/Python_data_analysis$pandas_read_and_write_excel.coverage" NAME="pandas_read_and_write_excel Coverage Results" MODIFIED="1556265332599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pandas_excel" />
@@ -73,23 +70,23 @@
     <session id="1756470407">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="18" />
-          <entry key="py" value="53" />
+          <entry key="py" value="54" />
           <entry key="test2" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -97,13 +94,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="53" />
+          <entry key="Python" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="py" value="18783" />
+          <entry key="py" value="23088" />
           <entry key="test2" value="53" />
           <entry key="txt" value="40" />
         </counts>
@@ -111,7 +108,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="123" />
-          <entry key="Python" value="18772" />
+          <entry key="Python" value="23077" />
           <entry key="SQL" value="11" />
         </counts>
       </usages-collector>
@@ -119,11 +116,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine_quality.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="222">
+              <caret line="140" column="28" lean-forward="true" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1557218629088" expanded="true" signature="1853:1858" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Machine_learning_basic/customer_churn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -132,21 +142,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine-merge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88992">
+            <state relative-caret-position="91224">
               <caret line="3801" column="8" selection-start-line="3801" selection-start-column="8" selection-end-line="3801" selection-end-column="8" />
             </state>
           </provider>
@@ -275,6 +273,7 @@
         <option value="$PROJECT_DIR$/Database_basic/3db_update_row.py" />
         <option value="$PROJECT_DIR$/Machine_learning_basic/wine-merge.py" />
         <option value="$PROJECT_DIR$/Machine_learning_basic/wine_quality.py" />
+        <option value="$PROJECT_DIR$/Machine_learning_basic/customer_churn.py" />
       </list>
     </option>
   </component>
@@ -296,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,16 +307,11 @@
               <item name="Python_data_analysis" type="462c0819:PsiDirectoryNode" />
               <item name="Machine_learning_basic" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python_data_analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_data_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Machine_learning_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,29 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wine_quality">
-    <configuration name="1db_count_rows" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_data_analysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Database_basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Database_basic/1db_count_rows.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.customer_churn">
     <configuration name="2db_insert_row" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_data_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -404,6 +375,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Database_basic/3db_update_row.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="customer_churn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_data_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine_learning_basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine_learning_basic/customer_churn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -457,19 +450,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1db_count_rows" />
       <item itemvalue="Python.2db_insert_row" />
       <item itemvalue="Python.3db_update_row" />
       <item itemvalue="Python.wine-merge" />
       <item itemvalue="Python.wine_quality" />
+      <item itemvalue="Python.customer_churn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.customer_churn" />
         <item itemvalue="Python.wine_quality" />
         <item itemvalue="Python.wine-merge" />
         <item itemvalue="Python.3db_update_row" />
         <item itemvalue="Python.2db_insert_row" />
-        <item itemvalue="Python.1db_count_rows" />
       </list>
     </recent_temporary>
   </component>
@@ -488,14 +481,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12070815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1223176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28846154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31900454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,7 +501,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.36051503" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.15504292" />
       <window_info anchor="right" id="Database" order="4" weight="0.329303" />
     </layout>
   </component>
@@ -520,13 +512,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tuple_basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dict_basic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -773,10 +758,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Machine_learning_basic/wine_quality.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="222">
+          <caret line="140" column="28" lean-forward="true" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <marker date="1557218629088" expanded="true" signature="1853:1858" ph="..." />
           </folding>
         </state>
       </provider>
@@ -793,7 +779,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88992">
+        <state relative-caret-position="91224">
           <caret line="3801" column="8" selection-start-line="3801" selection-start-column="8" selection-end-line="3801" selection-end-column="8" />
         </state>
       </provider>
@@ -847,6 +833,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine_learning_basic/customer_churn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
